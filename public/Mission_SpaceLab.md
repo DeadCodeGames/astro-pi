@@ -6,7 +6,7 @@
 - Vyhodnocovanie pohybu pomocou Python knižnice OpenCV
 - Zaznamenávanie fotografii pomocou kamerového modulu 
 
-Cieľom projektu **Missio Space Lab** je vytvoriť program, ktorý zaznamena sériu fotografii a následne vyhodnotí rýchlosť pohybu.
+Cieľom projektu **Mission Space Lab** je vytvoriť program, ktorý zaznamena sériu fotografii a následne vyhodnotí rýchlosť pohybu.
 
 ---
 
@@ -46,7 +46,7 @@ Cieľom projektu **Missio Space Lab** je vytvoriť program, ktorý zaznamena sé
 - Automatická úprava pozadia podľa svetelných podmienok.
 
 ### **3.1 Použitie statickej výšky**
-- Na vyriešenie problému, ktorý nám zabraňoval vypočítať výšku dynamicky sme použili staticku výšku, ktorú sme určili ako priemernú výšku ISS = 420 000km
+- Na vyriešenie problému, ktorý nám zabraňoval vypočítať výšku dynamicky sme použili staticku výšku, ktorú sme určili ako priemernú výšku ISS = 420 000m
 
 ### **3.2 Používanie len Thonny**
 - Kvôli nefunkčnosti emulátoru sme boli odkázaní len na Thonny, ktorý nám na potrebné veci postačil
