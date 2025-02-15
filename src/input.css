@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "@tailwindcss/typography";  
+@import url('./fonts/fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.prose {
+    @apply prose-headings:text-white prose-p:text-gray-300 prose-a:text-blue-400 prose-strong:text-white prose-ul:text-gray-300 prose-ol:text-gray-300 max-w-none;
+}
+
+html, body {@apply m-0 bg-black text-white font-notoSans;} a {all: unset;@apply cursor-pointer underline m-[2.5px];} div.checklist pre.code { @apply border w-fit p-2 rounded-lg border-solid border-[#1F1F1F] bg-[#0F0F0F] my-4; }
